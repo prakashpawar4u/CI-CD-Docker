@@ -109,4 +109,4 @@ def test_invalid_login_rejected():
     username = "fake_user"
     password = "wrong_pass"
     login_success = False
-    assert not login_success, f"Invalid login for {username} was incorrectly accepted."
+    assert not login_success, f"Invalid login for {username} was incorrectly accepted"
