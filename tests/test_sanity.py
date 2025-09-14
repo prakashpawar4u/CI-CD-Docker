@@ -25,10 +25,10 @@ def test_kubernetes_namespace_creation():
     
     assert target_namespace in namespaces, f"Namespace {target_namespace} not found"
 
-# def test_config_map_creation():
-#     """Verify ConfigMap is properly created during deployment."""
-#     config_maps = ["smo-config", "app-config", "env-config"]
-#     target_config_map = "smo-config"
+def test_config_map_creation():
+    """Verify ConfigMap is properly created during deployment."""
+    config_maps = ["smo-config", "app-config", "env-config"]
+    target_config_map = "smo-config"
     
 #     assert target_config_map in config_maps, "SMO ConfigMap not created"
 
