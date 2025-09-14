@@ -6,7 +6,8 @@ on:
 
 jobs:
   test:
-    runs-on: self-hosted   # we’ll register your MacBook as the runner
+    # runs-on: self-hosted   # we’ll register your MacBook as the runner
+    runs-on: [self-hosted, linux]
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
